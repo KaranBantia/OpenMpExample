@@ -1,0 +1,2 @@
+# OpenMpExample
+OpenMp example code
