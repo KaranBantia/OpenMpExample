@@ -7,7 +7,6 @@ int main() {
     int n = 1000;
     #pragma omp parallel shared(sum)
     {
-        int ID = omp_get_thread_num();  
         
         #pragma omp for 
         for(i = 1; i <= n; i++) {
